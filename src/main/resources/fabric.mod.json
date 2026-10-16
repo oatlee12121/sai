@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "oatleeclient",
+  "version": "${version}",
+  "name": "OatleeCLIENT",
+  "description": "A polished, client-side Fabric utility client for exploration and visual information.",
+  "authors": ["Oatlee"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.oatlee.client.OatleeClient"] },
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "~1.21.11", "fabric-api": ">=0.141.1+1.21.11", "java": ">=21" }
+}
